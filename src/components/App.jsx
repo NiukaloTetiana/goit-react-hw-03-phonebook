@@ -6,7 +6,7 @@ import { Section } from './Section/Section';
 import { ContactForm } from './ContactForm/ContactForm';
 import { Filter } from './Filter/Filter';
 import { ContactList } from './Contacts/ContactList/ContactList';
-import { loadFromLS, saveToLS } from './helpers/storage';
+import { loadFromLS, saveToLS } from '../helpers/storage';
 
 export class App extends Component {
   state = {
